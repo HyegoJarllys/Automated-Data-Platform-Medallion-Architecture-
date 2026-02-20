@@ -46,6 +46,10 @@ Early detection prevents corrupted data from propagating downstream.
 
 ![Great Expectations Validation](../screenshots/ge_validation.png)
 
+### Data Documentation
+
+![Great Expectations Data Docs](../screenshots/ge_datadocs.png)
+
 The Silver layer represents the **operational source of truth**, so strict validation is applied.
 
 Validation types:

@@ -11,6 +11,8 @@ The core of this layer is the **OpenClaw Agent**, an autonomous DataOps system d
 
 ## Observability Objectives
 
+screenshots/data_quality_dashboard.png
+
 The monitoring layer was designed to:
 
 - Detect pipeline failures as early as possible
@@ -26,6 +28,9 @@ Detection latency:
 ---
 
 ## Observability Architecture
+
+![OpenClaw Flow](../diagrams/openclaw_flow.png)
+
 Airflow / dbt execution
 ↓
 Monitoring DAG parses artifacts
@@ -157,6 +162,10 @@ Output:
 ---
 
 ### 5. Alert Delivery
+
+### Example Alert
+
+![OpenClaw Alert](../screenshots/openclaw_alert.png)
 
 Notifications sent via:
 - **Discord Webhook**

@@ -134,19 +134,23 @@ The full production DAGs are maintained in a private repository.
 
 ## 8. Dashboards
 
-Open the folder:
+## 8. Dashboards
 
-`screenshots/`
+The Gold layer feeds Power BI dashboards designed for executive and operational decision-making.
 
-Recommended screenshots to include:
+### Executive Dashboard
 
-- Executive dashboard (revenue / orders)
-- Seller performance / NPS
-- Risk or operational indicators
-- OpenClaw alert example
+![Executive Dashboard](../screenshots/powerbi_executive_dashboard.png)
 
-The Gold layer feeds **Power BI dashboards** designed for operational and executive analysis.
+Main business insights:
+- Total revenue performance
+- Delivery SLA monitoring
+- Customer churn analysis
+- NPS tracking
+- Critical order detection
+- Revenue trend over time
 
+These dashboards demonstrate how the platform transforms raw data into actionable business insights.
 ---
 
 ## 9. Operational Flow (Quick Summary)
