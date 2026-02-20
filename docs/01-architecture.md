@@ -12,6 +12,9 @@ The design follows modern Data Engineering principles:
 ---
 
 ## High-Level Architecture
+
+![Ingestion Architecture](../diagrams/bronze_ingestion_flow.png)
+
 CSV Sources
 ↓
 Google Cloud Storage (Bronze - Parquet)
@@ -26,6 +29,8 @@ Airflow + dbt → Events → BigQuery → OpenClaw → Alerts
 ---
 
 ## Architecture Layers
+
+diagrams/medallion_full_flow.png
 
 ### 1. Source Layer
 

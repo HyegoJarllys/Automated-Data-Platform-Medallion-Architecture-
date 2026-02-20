@@ -117,6 +117,8 @@ These small datasets illustrate the structure used by the platform.
 
 ## 7. Orchestration Example
 
+![Airflow DAGs](../screenshots/airflow_dags.png)
+
 Open:
 
 `examples/airflow_dags/example_dag.py`
